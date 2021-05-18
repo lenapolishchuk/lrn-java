@@ -6,7 +6,7 @@ public class Labels extends JFrame {
 
     JPanel pnl = new JPanel();
 
-    ImageIcon duke = new ImageIcon("Interface/tick.jpg") ;
+    ImageIcon duke = new ImageIcon("resourses/tick.jpg") ;
 
     JLabel lbl1 = new JLabel( duke ) ;
     JLabel lbl2 = new JLabel( "Дюк — талисман технологии Java." ) ;

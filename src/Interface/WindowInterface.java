@@ -6,8 +6,8 @@ public class WindowInterface extends JFrame {
     JPanel pnl = new JPanel();
 
     ClassLoader ldr = this.getClass().getClassLoader() ;
-    java.net.URL tickURL = ldr.getResource("Interface/tick.jpg") ;
-    java.net.URL crossURL = ldr.getResource("Interface/NoBtn.png") ;
+    java.net.URL tickURL = ldr.getResource("resourses/tick.jpg") ;
+    java.net.URL crossURL = ldr.getResource("resourses/NoBtn.png") ;
 
     ImageIcon tick = new ImageIcon( tickURL) ;
     ImageIcon cross = new ImageIcon( crossURL) ;
